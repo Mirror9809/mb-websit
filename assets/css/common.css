@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #f1be51;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.j-c {
+    justify-content: center;
+}
+
+.a-t {
+    align-items: center;
+}
+
+.flex-j-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-s-b{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bd-r {
+    border: 1px solid red;
+}
