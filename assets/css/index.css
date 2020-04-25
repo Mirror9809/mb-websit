@@ -16,7 +16,7 @@ header .top .top-left {
     width: 155px;
 }
 
-header .top .top-left .left-text{
+header .top .top-left .left-text {
     line-height: 50px;
 }
 
@@ -24,7 +24,7 @@ header .top .top-right {
     width: 325px;
 }
 
-header .top .top-right .right-text{
+header .top .top-right .right-text {
     line-height: 50px;
 }
 
@@ -63,27 +63,70 @@ header .destine:hover {
 .banner img {
     width: 100%;
     height: auto;
+    vertical-align: bottom;
+    /* 去掉图片下方的空隙 */
 }
-
 
 main {
     width: 100%;
     min-width: 1200px;
 }
 
+main section {
+    background-color: #fdf5f2;
+}
+
 main .sec-first {
     height: 320px;
     width: 100%;
     box-sizing: border-box;
-    padding: 0 60px 0 60px;
+    padding: 50px 100px 0 100px;
     display: flex;
     justify-content: space-between;
-
 }
+
 
 main .sec-first .item {
     height: 100%;
-    width: 300px;
+    width: 380px;
+    padding: 10px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+main .sec-first .item .img {
+    height: 180px;
+    width: 180px;
+}
+
+main .sec-first .item .title {
+    color: rgba(75, 73, 86, 1);
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+main .sec-first .item .intro {
+    color: rgba(150, 150, 150, 1);
+    font-size: 15px;
+    text-align: center;
+    padding: 0 5px 15px 5px;
+}
+
+main .sec-second {
+    height: 600px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px 280px 0 280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .sec-second .items {
+    height: 100%;
+    width: 350px;
     padding: 10px 0 0 0;
     display: flex;
     flex-direction: column;
@@ -91,16 +134,10 @@ main .sec-first .item {
     align-items: center;
 }
 
-main .sec-first .item .img {
-    height: 150px;
-    width: 150px;
-}
-
-main .sec-first .item .intro {
-    text-align: center;
-}
-
-main .sec-first .item .destine {
-    width: 100%;
-    height: 30px;
+main .sec-second .items .text{
+    font-size: 35px;
+    color: #fff;
+    background-color: #f1be51;
+    border-radius:10px;
+    padding: 5px 15px;
 }
