@@ -10,10 +10,18 @@ a {
 
 a:hover {
     color: #f1be51;
+    font-size: 30px;
 }
 
 div {
     box-sizing: border-box;
+}
+
+@font-face {
+    font-family: '汉仪雪君体简';
+    src: url('../../汉仪雪君体简.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .flex {
