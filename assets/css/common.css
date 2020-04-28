@@ -8,11 +8,6 @@ a {
     color: black;
 }
 
-a:hover {
-    color: #f1be51;
-    font-size: 30px;
-}
-
 div {
     box-sizing: border-box;
 }
